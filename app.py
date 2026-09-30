@@ -117,7 +117,13 @@ async def run_sensitive_action(conversation_id: str):
     # For test purposes we simply acknowledge execution.
     return {"conversation_id": conversation_id, "status": "sensitive action executed"}
 
+@app.get("/health")
+async def health_check():
+    """Simple health/readiness endpoint for deployments."""
+    return JSONResponse(content={"status": "ok"})
+
 # Mount Gradio UI (ui.demo) at the root path after all routes are defined
 import gradio as gr
 from ui import demo
 app = gr.mount_gradio_app(app, demo, path="/")
+
