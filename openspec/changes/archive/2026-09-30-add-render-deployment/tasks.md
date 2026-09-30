@@ -18,5 +18,5 @@
 ## 4. Local Verification & Render Validation
 
 - [x] 4.1 Run the application locally (`uvicorn app:app --reload`) and manually check that `/health` and the Gradio UI at `/` are reachable.
-- [ ] 4.2 Deploy to Render using the `render.yaml` configuration (manual step). Verify the health check endpoint passes Render’s health check and the Gradio UI loads.
-- [ ] 4.3 After successful Render deployment, run the mocked deployment tests again to ensure they still pass.
+- [x] 4.2 Deploy to Render using the `render.yaml` configuration (manual step). Verify the health check endpoint passes Renderâ€™s health check and the Gradio UI loads.
+- [x] 4.3 After successful Render deployment, run the mocked deployment tests again to ensure they still pass.
