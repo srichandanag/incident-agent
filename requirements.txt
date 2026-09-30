@@ -2,6 +2,10 @@
 langchain-google-genai
 google-genai
 
+# Agent Orchestration & Checkpointing
+langgraph
+langgraph-checkpoint-postgres
+
 # Database & Vector Store
 psycopg[binary,pool]
 pgvector
