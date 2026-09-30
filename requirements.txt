@@ -1,0 +1,14 @@
+# LLM & Embeddings
+langchain-google-genai
+google-genai
+
+# Database & Vector Store
+psycopg[binary,pool]
+pgvector
+
+# Configuration & Utilities
+python-dotenv
+
+# Testing
+pytest
+pytest-mock
