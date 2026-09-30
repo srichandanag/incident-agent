@@ -16,3 +16,5 @@ python-dotenv
 # Testing
 pytest
 pytest-mock
+
+uvicorn
