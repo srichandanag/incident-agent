@@ -18,3 +18,5 @@ pytest
 pytest-mock
 
 uvicorn
+fastapi
+gradio
